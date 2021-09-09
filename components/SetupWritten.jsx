@@ -22,9 +22,8 @@ const SetupWritten = () => {
       <p>
         STEP 1: Download the VS Code extension from the
         <Link href='https://marketplace.visualstudio.com/items?itemName=NextStep.nextstep'>
-          <a target='_blank'> Extension Marketplace</a>
+          <a target='_blank'> Extension Marketplace.</a>
         </Link>
-        .
       </p>
       <br />
       <p>
@@ -42,13 +41,13 @@ const SetupWritten = () => {
         <SyntaxHighlighter language='javascript'>{exportRwb}</SyntaxHighlighter>
         <br />
       <p>
-        STEP 4: Create a file named <span>next-step.js</span> inside your
+        STEP 4: Create a <span>next-step.js</span> file inside your
         pages/api folder and copy this:{' '}
       </p>
         <SyntaxHighlighter language='javascript'>{importCode}</SyntaxHighlighter>
       <p>
       <br />
-        STEP 5: Start up your server and click on the NextStep button in the VS
+        STEP 5: Click on the NextStep button in the VS
         Code Status Bar.
       </p>
       <br />

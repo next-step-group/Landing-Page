@@ -8,14 +8,13 @@
   }
 
   .container p {
-    /* font-family: sans-serif;
-    font-weight: lighter; */
     font-family: 'Karla';
     font-weight: 300;
-    font-size: 25px;
+    font-size: 1.5rem;
     margin: 5px;
     padding: 2px;
-    width: 1000px;
+    width: 100%;
+    overflow-wrap: break-word;
   }
 
   .container span, .container a {
@@ -33,4 +32,18 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+  }
+
+  @media screen and (max-width: 415px) {
+
+    .container {
+      justify-content: center;
+      align-items: center;
+    }
+    .container p {
+      margin-right: 30px;
+      padding: 10px;
+      font-size: 1.2rem;
+      width: 70%;
+    }
   }

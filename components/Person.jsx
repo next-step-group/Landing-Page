@@ -1,4 +1,3 @@
-import TeamContainer from "../containers/TeamContainer";
 import classes from "../styles/Person.module.css";
 import Image from "next/image";
 import Link from 'next/link'
