@@ -1,5 +1,4 @@
 import classes from '../styles/DemoWritten.module.css';
-import Link from 'next/link';
 
 const DemoWritten = () => {
   return (

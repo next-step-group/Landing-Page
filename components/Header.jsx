@@ -18,7 +18,7 @@ const Header = () => {
         <Link href="https://marketplace.visualstudio.com/items?itemName=NextStep.nextstep"><a target="_blank">VS Code</a></Link>
         <Link href="https://github.com/oslabs-beta/next-step"><a target="_blank">GitHub</a></Link>
         <Link href="https://www.npmjs.com/package/next-step-metrics"><a target="_blank">npm</a></Link>
-        <Link href="#">LinkedIn</Link>
+        <Link href="https://www.linkedin.com/company/nextstep-metrics"><a target="_blank">LinkedIn</a></Link>
       </div>
     </header>
   );

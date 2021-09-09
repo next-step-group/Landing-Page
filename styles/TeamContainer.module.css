@@ -20,7 +20,6 @@
    justify-content: center;
    flex-wrap: wrap;
    height: 950px;
-    /* justify-content: space-between; */
   }
 }
 @media screen and (max-width: 518px) {
@@ -29,6 +28,5 @@
    justify-content: center;
    flex-wrap: wrap;
    height: 1750px;
-    /* justify-content: space-between; */
   }
 }
