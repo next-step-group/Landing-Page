@@ -8,8 +8,6 @@
   }
 
   .container p {
-    /* font-family: sans-serif;
-    font-weight: lighter; */
     font-family: 'Karla';
     font-weight: 300;
     font-size: 1.5rem;
@@ -36,7 +34,7 @@
       justify-content: center;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 415px) {
 
     .container {
       justify-content: center;

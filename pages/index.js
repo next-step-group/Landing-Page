@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import TopContainer from "../containers/TopContainer";
 import DemoContainer from "../containers/DemoContainer";
@@ -16,7 +14,7 @@ export default function Home() {
         <title>Next Step</title>
         <meta
           name="description"
-          content="VS Code Extension that prints out web vital metrics in your code editor"
+          content="VS Code Extension that prints out web vital metrics for Next.js developers in their code editor to improve performance and SEO"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <style>

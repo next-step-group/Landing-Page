@@ -1,5 +1,4 @@
 import classes from "../styles/SetupScreenShare.module.css";
-import Image from "next/image";
 
 const SetupScreenshare = () => {
   return (
