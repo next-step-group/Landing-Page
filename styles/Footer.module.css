@@ -7,21 +7,22 @@
   font-size: 1.3rem;
 }
 
+.footer a {
+  color: #1c73c5;
+}
+
 @media screen and (max-width: 1000px) {
   .footer {
     display: flex;
-    /* flex-direction: column; */
-    /* height: 1250px */
    flex-wrap: wrap;
    height: 75px;
   }
  }
-@media screen and (max-width: 473px) {
+@media screen and (max-width: 375px) {
   .footer {
     display: flex;
-    /* flex-direction: column; */
-    /* height: 1250px */
-   flex-wrap: wrap;
-   height: 120px;
+    justify-content: center;
+   height: 50px;
+   font-size: 14px;
   }
  }

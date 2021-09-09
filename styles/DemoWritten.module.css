@@ -4,8 +4,9 @@
   justify-content: center;
   align-items: flex-start;
   max-height: 90%;
-  width: 600px;
+  width: 750px;
   padding-bottom: 5rem;
+  margin: 25px;
 }
 
 .demoWritten a {
@@ -13,19 +14,13 @@
 }
 
 
-@media screen and (min-width: 1700px) {
-  .demoWritten {
-    width: 750px;
-  }
-}
 
-@media screen and (max-width: 1112px) {
+@media screen and (max-width: 375px) {
   .demoWritten {
-    display: flex;
-    margin: 0;
+    width: 100%;
     font-size: 0.9rem;
-    width: 600px;
-    padding-bottom: 0rem;
+    padding: 25px;
   }
-}
+  
 
+}

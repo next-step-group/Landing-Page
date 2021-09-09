@@ -1,4 +1,5 @@
 .topContainer {
+  width: 100%;
   height: 1000px;
   display: flex;
   flex-direction: column;
@@ -9,11 +10,24 @@
   background: linear-gradient(to right, #232526, rgb(8, 8, 8));
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1200px) {
   .topContainer {
-    height: 1000px;
+    height: 1018px;
 
   }
 }
-/* #4b6cb7 */
-/* #182848 */
+
+
+@media screen and (max-width: 800px) {
+  .topContainer {
+    height: 1500px;
+
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .topContainer {
+    height: 1500px;
+    justify-content: flex-start;
+  }
+}

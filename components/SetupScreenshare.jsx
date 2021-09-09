@@ -7,7 +7,7 @@ const SetupScreenshare = () => {
       <p className={classes.title}>_app.js</p>
       <iframe src="https://streamable.com/e/d5mpxx" width="639px" height="400px" frameBorder="0"></iframe>
       <br />
-      <p className={classes.title}>./pages/api/hello.js</p>
+      <p className={classes.title}>./pages/api/next-step.js</p>
       <iframe src="https://streamable.com/e/xx1zqu" width="639px" height="400px" frameBorder="0"></iframe>
       
     </>

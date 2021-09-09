@@ -17,17 +17,25 @@
   height: 120px;
 }
 
-@media screen and (max-width: 1112px) {
+@media screen and (max-width: 1200px) {
   .demoContainer{
     display: flex;
-    align-items: center;
     flex-direction: column;
-
-    /* overflow: auto; */
-    height: 700px;
+    height: 950px;
   }
+
+  
 
   .title {
     height: 80px;
   }
+}
+
+
+@media screen and (max-width: 375px) {
+  .demoContainer {
+    height: 1100px;
+  }
+  
+
 }

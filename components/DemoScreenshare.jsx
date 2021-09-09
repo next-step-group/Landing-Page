@@ -13,7 +13,7 @@ const DemoScreenshare = () => {
       <iframe
         src="https://streamable.com/e/qte3e9"
         width="1500px"
-        height="700px"
+        height="400px"
         frameBorder="0"
       ></iframe>
     </div>

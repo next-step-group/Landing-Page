@@ -18,6 +18,7 @@ export default function Home() {
           name="description"
           content="VS Code Extension that prints out web vital metrics in your code editor"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <style>
 
           @import

@@ -1,5 +1,5 @@
 .container {
-  height: 1000px;
+  height: 1100px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -21,8 +21,9 @@
   margin: 0;
   display: flex;
   align-items: flex-start;
-  height: 100%;
-  width: 800px;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 820px;
 }
 
 .title {
@@ -35,13 +36,14 @@
   height: 100px;
 }
 
-@media screen and (max-width: 1114px) {
+@media screen and (max-width: 1200px) {
   .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 2000px;
   }
+  
   .right {
   width: 800px;
   justify-content: center;
@@ -59,6 +61,29 @@
     }
     .title {
       height: 175px;
+    }
+  
+  }
+
+  @media screen and (max-width: 375px) {
+    .container {
+      height: 1900px;
+      padding: 5px;
+      font-size: 10px;
+    }
+  
+
+
+    .right {
+      width: 100%;
+    }
+
+    .left {
+      width: 100%;
+    }
+
+    .left iframe {
+      width: 80%;
     }
   
   }
