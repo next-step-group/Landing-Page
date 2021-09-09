@@ -38,7 +38,7 @@ const TeamContainer = () => {
           work="Software Engineer"
           linkedIn="https://www.linkedin.com/in/kenny-shen-ny"
           gitHub="https://github.com/shenkenny"
-          image="https://i.ibb.co/QfDVVhy/Screen-Shot-2021-09-07-at-3-17-40-PM.png"
+          image="https://i.ibb.co/TqM8gs0/Image-from-i-OS.jpg"
           width="346px"
           height="309px"
         />
