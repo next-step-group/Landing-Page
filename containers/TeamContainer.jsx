@@ -27,7 +27,7 @@ const TeamContainer = () => {
         <Person
           name="Simon Yu"
           work="Software Engineer"
-          linkedIn="https://www.linkedin.com/in/simon-yu-398442101"
+          linkedIn="https://www.linkedin.com/in/simon-yu-in"
           gitHub="https://github.com/syu449"
           image="https://i.ibb.co/kq4fTVB/simone.jpg"
           width="435px"
